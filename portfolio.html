@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700;900&family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--main menu container-->
+    <header>
+      <div class="logo-container">
+        <a class="logo-link" href="./index.html">
+          <span class="logo-2-2"><span class="logo-1-2">Web</span> Studio</span>
+        </a>
+      </div>
+      <ul class="menu-list">
+        <li>
+          <a class="main-menu-link menu-block link-hover" href="./index.html"
+            >Студия</a
+          >
+        </li>
+        <li>
+          <a
+            class="main-menu-link menu-block link-hover"
+            href="./portfolio.html"
+            >Портфолио</a
+          >
+        </li>
+        <!--Is this link for an anchor?-->
+        <li>
+          <a class="main-menu-link menu-block link-hover" href="">Контакты</a>
+        </li>
+      </ul>
+      <!-- Header contacts -->
+      <ul class="contacts-list">
+        <li class="header-contacts-item">
+          <a class="contact-link menu-block link-hover" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
+        </li>
+        <li class="header-contacts-item menu-block link-hover">
+          <a class="contact-link menu-block" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <!--Portfolio container-->
+    <main class="portfolio">
+      <!-- Portfolio sorting menu: nav>ul.sort-portfolio>(li.sort-item>div.item-button>p.item-text>a.text-link)*5,
+      nav>ul.menu-list>(li.menu-item>div.menu-button>p.item-text>a.item-link)*5-->
+
+      <!--Portfolio items: section.main-container>h2>(ul.portfolio-main-list>li.portfolio-item*3>(li.portfolio-item>div.item-container>div.image-abovecover+img.item-image+h3.portfolio-subtitle>a+span.portfolio-subtitle-group)*3)-->
+      <section class="portfolio-container">
+        <!---Hiden header-->
+        <h1 class="hidden-title">Портфолио</h1>
+        <nav class="portfolio-menu">
+          <ul class="portfolio-menu-list">
+            <li class="menu-item">
+              <div class="menu-button">
+                <a class="item-link menu-link" href="">Все</a>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-button">
+                <a class="item-link menu-link" href="">Веб-сайты</a>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-button">
+                <a class="item-link menu-link" href="">Приложения</a>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-button">
+                <a class="item-link menu-link" href="">Дизайн</a>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-button">
+                <a class="item-link menu-link" href="">Маркетинг</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <ul class="portfolio-list">
+          <li class="portfolio-item-row">
+            <ul class="portfolio-row">
+              <li class="portfolio-item">
+                <div class="item-box-1 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/portfolio-1.jpg"
+                    alt="portfolio-1"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href="#"
+                      >Технокряк</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Веб-сайт</span>
+                </div>
+              </li>
+              <li class="portfolio-item">
+                <div class="item-box-2 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/portfolio-2.jpg"
+                    alt="portfolio-2"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >Постер New Orlean vs Golden Star</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Дизайн</span>
+                </div>
+              </li>
+              <li class="portfolio-item">
+                <div class="item-box-3 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/portfolio-3.jpg"
+                    alt="portfolio-3"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >Ресторан Seafood</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Приложение</span>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="portfolio-item-row">
+            <ul class="portfolio-row">
+              <li class="portfolio-item">
+                <div class="item-box-4 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/portfolio-4.jpg"
+                    alt="portfolio-4"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >Проект Prime</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Маркетинг</span>
+                </div>
+              </li>
+              <li class="portfolio-item">
+                <div class="item-box-5 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/portfolio-5.jpg"
+                    alt="portfolio-5"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >Проект Boxes</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Приложение</span>
+                </div>
+              </li>
+              <li class="portfolio-item">
+                <div class="item-box-6 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/desighn_solutions.jpg"
+                    alt="portfolio-6"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >Inspiration has no Borders</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Веб-сайт</span>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="portfolio-item-row">
+            <ul class="portfolio-row">
+              <li class="portfolio-item">
+                <div class="item-box-7 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/portfolio-7.jpg"
+                    alt="portfolio-7"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >ИзданиеLimited Edition</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Дизайн</span>
+                </div>
+              </li>
+              <li class="portfolio-item">
+                <div class="item-box-8 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/portfolio-8.jpg"
+                    alt="portfolio-8"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >Проект LAB</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Маркетинг</span>
+                </div>
+              </li>
+              <li class="portfolio-item">
+                <div class="item-box-9 card-box">
+                  <!-- <div class="image-abovecover"></div> -->
+                  <img
+                    src="./images/desktop_apps.jpg"
+                    alt="portfolio-9"
+                    class="item-image"
+                  />
+                  <h3 class="portfolio-subtitle">
+                    <a class="item-link portfolio-item-header" href=""
+                      >Growing Business</a
+                    >
+                  </h3>
+                  <span class="portfolio-subtitle-group">Приложение</span>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--contacts container-->
+    <footer class="footer-container">
+      <div class="footer-main-row">
+        <div class="logo-column">
+          <div class="footer-logo">
+            <a class="logo-link" href="./index.html">
+              <span class="logo-2-3"
+                ><span class="logo-1-2">Web</span> Studio</span
+              >
+            </a>
+          </div>
+          <address class="footer-address">
+            <p class="address-post">г.Киев, пр-т Леси Украинки, 26</p>
+            <ul class="contacts-links">
+              <li class="contact-item">
+                <a
+                  class="contact-link link-hover"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="contact-item">
+                <a class="contact-link link-hover" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <span class="footer-subscribe">Присоеденяйтесь</span>
+          <ul class="footer-social-list">
+            <!-- <li class="instagramm">
+                  <a
+                    class="instagram-link link-hover"
+                    href="https://www.instagram.com"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="twitter">
+                  <a class="twitter-link link-hover" href="https://twitter.com/"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="facebook">
+                  <a
+                    class="facebook-link link-hover"
+                    href="https://www.facebook.com/"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="linkedin">
+                  <a
+                    class="linkedin-link link-hover"
+                    href="https://www.linkedin.com/"
+                    >Linkedin</a
+                  >
+                </li> -->
+          </ul>
+        </div>
+        <!--form for subscribtion-->
+        <form class="footer-form">
+          <span class="footer-subscribe">Подпишитесь на рассылку</span>
+          <div class="footer-email">
+            <input type="email" placeholder="E-mail" />
+            <button>Подписаться</button>
+          </div>
+        </form>
+      </div>
+      <p class="copyright">2020 | Developed by GoIT Students</p>
+    </footer>
+  </body>
+</html>
