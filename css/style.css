@@ -35,16 +35,10 @@ body {
   height: 1990px;
   flex-direction: column;
   justify-content: space-between;
-  /* justify-content: center; */
   align-items: center;
 }
 
-/* main {
-  display: flex;
-  justify-content: center;
-} */
-
-/* Header menu items */
+/* Header menu items ------------------------------------- */
 .main-menu-link {
   color: var(--title-color);
   font-style: normal;
@@ -52,24 +46,15 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
-  /* background-color: var(--view-background-1); */
 }
 
 header {
-  width: 1600px;
-  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* justify-items: center; */
-
-  /* position: absolute; - устанавливает позиционирование елемента, как-будто его нет*/
-  /* width: 1600px; height: 80px; - сдвигают элементы вправо от центра*/
-  /* padding: 30px; */
-
-  /* background-color: #455a64; */
+  width: 1600px;
+  height: 80px;
 }
 
 .logo-container {
@@ -80,13 +65,13 @@ header {
 
 .menu-list {
   display: flex;
-  list-style-type: none;
   margin-right: 305px;
+
+  list-style-type: none;
 }
 
 .main-menu-link {
   margin-right: 50px;
-  /* margin-bottom: 32px; */
 }
 
 .menu-block {
@@ -99,7 +84,7 @@ header {
   list-style-type: none;
 }
 
-/* .header-contacts  */
+/* .header-contacts ---------------------------------------*/
 .header-contacts-item {
   color: var(--subtitle-color);
   font-weight: 500;
@@ -110,7 +95,7 @@ header {
   margin-right: 30px;
 }
 
-/* Links common styles */
+/* Links common styles ----------------------------------- */
 
 /* links underline off */
 .logo-link,
@@ -135,8 +120,7 @@ header {
   text-decoration: none;
 }
 
-/* Banner  */
-
+/* Banner ------------------------------------------------- */
 .hero {
   display: flex;
   flex-direction: column;
@@ -146,8 +130,6 @@ header {
   width: 1600px;
   height: 600px;
   background-image: url('../images/header.jpg');
-  /* background-color: var(--hero-ways-background); */
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
 }
 
 .hero > h1 {
@@ -165,24 +147,18 @@ header {
 }
 
 .hero-ordering {
-  color: var(--button-text-color);
-  border-radius: 4px;
-
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
+  color: var(--button-text-color);
+  border-radius: 4px;
   background: var(--header-blue);
   margin-top: 30px;
-  /* margin-right: px;
-  margin-bottom: px;
-  margin-left: px; */
 
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
   text-align: center;
   padding-top: 10px;
   padding-right: 32px;
@@ -191,7 +167,7 @@ header {
   line-height: 38px;
 }
 
-/* Links common efects */
+/* Links common efects ------------------------------------*/
 
 /* Items change its color */
 .main-menu-link:hover {
@@ -217,22 +193,13 @@ header {
   text-decoration: none;
 }
 
-/* Invisible headers of page boxes*/
+/* Invisible headers of page boxes ------------------------*/
 .hidden-title {
-  /* Костыль - как сделать скрытый заголовок? */
   position: absolute;
   color: rgba(255, 255, 255, 0);
 }
 
-/* Main ----------------------------- */
-
-/* main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* Principle container ------------------------*/
+/* Principle container ------------------------------------*/
 
 .principles {
   display: flex;
@@ -240,7 +207,6 @@ header {
   align-items: center;
   justify-content: center;
   width: 1600px;
-  /* height: 340px; */
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -287,8 +253,7 @@ header {
   width: 270px;
 }
 
-/* ways of development container --------------- */
-
+/* ways of development container ------------------------- */
 .ways-container {
   display: flex;
   flex-direction: column;
@@ -300,11 +265,8 @@ header {
 .ways-box {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-
   padding-right: 215px;
   padding-left: 215px;
-
   width: 1170px;
 }
 
@@ -314,7 +276,7 @@ header {
 
 .ways-item {
   margin-right: 0px;
-  width: 370px;
+  width: calc((100%-30px * 3) / 4);
 }
 
 .ways-image {
@@ -337,6 +299,8 @@ header {
 }
 
 .ways-box > h3 {
+  width: calc((100%-30px * 3) / 4);
+
   color: var(--button-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -344,8 +308,6 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  width: 370px;
 }
 
 .ways-subtitle {
@@ -356,8 +318,6 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* width: 370px; */
 }
 
 .ways-box,
@@ -371,8 +331,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* web studio team container */
-
+/* web studio team container -------------------------------*/
 .team-container {
   display: flex;
   flex-direction: column;
@@ -392,13 +351,11 @@ header {
 
   margin-right: 215px;
   margin-left: 215px;
-  /* align-items: center; */
 }
 
 .team-member-box {
   display: block;
-  width: 270px;
-  /* height: 422px; */
+  width: calc((100%-30px * 3) / 4);
 }
 
 .team-member-box :not(:last-child) {
@@ -407,7 +364,6 @@ header {
 
 .member-image {
   width: 270px;
-  /* height: 355px; */
   padding-bottom: 30px;
 }
 
@@ -430,7 +386,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* clients container */
+/* clients container ---------------------------------------*/
 .clients-container {
   display: flex;
   flex-direction: column;
@@ -446,9 +402,6 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  /* width: 1170px; */
-  /* height: 182px; */
 }
 
 .clients-item-box {
@@ -467,12 +420,7 @@ header {
   margin-right: 30px;
 }
 
-/* .client-image {
-  width: 170px;
-  height: 90px;
-} */
-
-/* Footer. Logo Web Studio styles ------------------*/
+/* Footer. Logo Web Studio styles -------------------------*/
 
 .footer-container {
   display: flex;
@@ -480,16 +428,16 @@ header {
   justify-content: center;
   width: 1600px;
   height: 253px;
-  background-color: var(--footer-color);
-
   padding-top: 45px;
-  padding-left: 214px;
+
+  background-color: var(--footer-color);
 }
 
 .footer-main-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 214px;
   align-items: baseline;
   width: 1170px;
 }
@@ -572,10 +520,11 @@ header {
 .footer-form {
   display: flex;
   flex-direction: column;
-  /* width: 110px; */
 }
 
 .footer-subscribe {
+  margin-bottom: 20px;
+
   color: var(--button-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -586,8 +535,42 @@ header {
   width: 570px;
 }
 
+.footer-email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 12px;
+  background-color: var(--footer-color);
+
+  color: var(--contact-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  background-color: var(--footer-color);
+  border-radius: 4px;
+}
+
+.subscribe-button {
+  margin-top: 0px;
+  margin-left: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 /* --- */
 .copyright {
+  margin-right: 0px;
+
   color: var(--copy-rights-color);
   font-weight: normal;
   font-size: 12px;
@@ -596,7 +579,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* Portfolio ---------------------------------*/
+/* Portfolio ----------------------------------------------*/
 .portfolio-container {
   width: 1170px;
 
@@ -627,7 +610,6 @@ header {
 .portfolio-menu-list {
   display: flex;
   justify-content: center;
-  /* margin-right: 0px; */
 }
 
 .portfolio-menu-list > .menu-link {
@@ -639,6 +621,14 @@ header {
 }
 
 .menu-link {
+  padding-left: 22px;
+  margin-right: 6px;
+  margin-left: 6px;
+
+  border-radius: 4px;
+  background-color: var(--svg-background-color);
+  border-radius: 4px;
+
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
@@ -650,14 +640,6 @@ header {
   padding-right: 22px;
   padding-bottom: 8px;
   line-height: 38px;
-
-  padding-left: 22px;
-  margin-right: 6px;
-  margin-left: 6px;
-
-  border-radius: 4px;
-  background-color: var(--svg-background-color);
-  border-radius: 4px;
 }
 
 .menu-link:hover {
@@ -665,8 +647,7 @@ header {
   background: var(--header-blue);
 }
 
-/* Portfolio cards */
-
+/* --- Portfolio cards */
 .portfolio-list,
 .portfolio-row {
   list-style-type: none;
@@ -684,11 +665,10 @@ header {
   justify-content: space-between;
 }
 
-/* Inside card level */
+/* ---Inside card level */
 
 .item-image {
   width: 370px;
-  /* height: 295px; */
 }
 
 .portfolio-subtitle > .portfolio-item-header {
@@ -697,12 +677,11 @@ header {
   margin-bottom: 4px;
   margin-left: 24px;
 
+  color: var(--title-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-
-  color: var(--title-color);
 }
 
 .portfolio-list > span {
@@ -714,9 +693,10 @@ header {
 }
 
 .portfolio-subtitle-group {
-  color: var(--subtitle-color);
   margin-left: 24px;
   margin-bottom: 20px;
+
+  color: var(--subtitle-color);
 }
 
 .card-box {
@@ -724,10 +704,10 @@ header {
   border-radius: 4px;
   border-color: var(--svg-background-color);
   padding-bottom: 20px;
+  width: calc((100%-30px * 3) / 4);
 }
 
 .card-box > :not(:last-child) {
-  width: 370px;
   margin-bottom: 10px;
 }
 
