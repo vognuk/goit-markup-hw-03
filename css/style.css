@@ -276,7 +276,7 @@ header {
 
 .ways-item {
   margin-right: 0px;
-  width: calc((100%-30px * 3) / 4);
+  /* width: calc((100%-30px * 3) / 4); */
 }
 
 .ways-image {
