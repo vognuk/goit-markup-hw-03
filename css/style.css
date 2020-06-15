@@ -275,8 +275,8 @@ header {
 }
 
 .ways-item {
-  display: block;
-  /* margin-right: 0px; */
+  display: flex;
+  margin-right: 0px;
   width: calc((100%-30px * 3) / 4);
 }
 
