@@ -257,6 +257,7 @@ header {
 .ways-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 1600px;
   /* padding-top: var(--section-padding); */
   padding-bottom: var(--section-padding);
