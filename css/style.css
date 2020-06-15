@@ -265,9 +265,8 @@ header {
 .ways-box {
   display: flex;
   flex-direction: row;
-  padding-right: 215px;
-  padding-left: 215px;
-  width: 1170px;
+  justify-content: center;
+  width: calc((100%-30px * 3) / 4);
 }
 
 .ways-item:not(:last-child) {
@@ -346,11 +345,8 @@ header {
 .team-box {
   display: flex;
   flex-direction: row;
-  width: 1170px;
-  justify-content: space-around;
-
-  margin-right: 215px;
-  margin-left: 215px;
+  width: calc((100%-30px * 3) / 4);
+  justify-content: center;
 }
 
 .team-member-box {
