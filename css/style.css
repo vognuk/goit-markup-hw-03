@@ -275,7 +275,9 @@ header {
 }
 
 .ways-item {
-  margin-right: 0px;
+  display: block;
+  width: calc((100%-30px * 3) / 4);
+  /* margin-right: 0px; */
   /* width: calc((100%-30px * 3) / 4); */
 }
 
@@ -346,17 +348,17 @@ header {
 .team-box {
   display: flex;
   flex-direction: row;
-  width: calc((100%-30px * 3) / 4);
   justify-content: center;
-}
-
-.team-member-box {
-  display: block;
   width: calc((100%-30px * 3) / 4);
 }
 
 .team-member-box :not(:last-child) {
   margin-right: 30px;
+}
+
+.team-member-box {
+  display: block;
+  width: calc((100%-30px * 3) / 4);
 }
 
 .member-image {
