@@ -356,7 +356,7 @@ header {
   display: flex;
   flex-direction: row;
   /* width: calc((100%-30px * 3) / 4); */
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /* .team-box :not(:last-child) {
