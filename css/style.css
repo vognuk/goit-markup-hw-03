@@ -356,7 +356,7 @@ header {
   display: flex;
   flex-direction: row;
   /* width: calc((100%-30px * 3) / 4); */
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* .team-box :not(:last-child) {
@@ -573,6 +573,8 @@ header {
   margin-left: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
+
+  border: none;
 }
 
 /* --- */
