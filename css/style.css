@@ -23,6 +23,7 @@
   --button-text-color: #ffffff;
   --contact-color: rgba(255, 255, 255, 0.6);
   --copy-rights-color: rgba(255, 255, 255, 0.4);
+  --input-border-color: rgba(255, 255, 255, 0.3);
   --logo-font: Raleway;
 
   --section-padding: 94px;
@@ -563,7 +564,7 @@ header {
   line-height: 30px;
   letter-spacing: 0.03em;
 
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--input-border-color);
   border-radius: 4px;
   background-color: var(--footer-color);
   border-radius: 4px;
