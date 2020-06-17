@@ -214,8 +214,8 @@ header {
   align-items: center;
   justify-content: center;
   width: 1600px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px; */
+  /* padding-bottom: 94px; */
 }
 
 .principles-container {
@@ -223,8 +223,8 @@ header {
   justify-content: space-between;
   width: 1170px;
 
-  scroll-padding-top: var(--section-padding);
-  scroll-padding-bottom: var(--section-padding);
+  padding-top: var(--section-padding);
+  /* padding-bottom: var(--section-padding); */
 }
 
 .principle-child {
