@@ -278,7 +278,7 @@ header {
   margin: auto;
 }
 
-.ways-item:not(:last-child) {
+.ways-item :not(:last-child) {
   margin-right: 30px;
 }
 
