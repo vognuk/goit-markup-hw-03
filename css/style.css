@@ -355,7 +355,7 @@ header {
 .team-box {
   display: flex;
   flex-direction: row;
-  width: calc((100%-30px * 3) / 4);
+  /* width: calc((100%-30px * 3) / 4); */
   justify-content: center;
 }
 
@@ -661,7 +661,7 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width: calc((100%-30px * 3) / 4);
+  width: 1170px;
   margin: auto;
 }
 
