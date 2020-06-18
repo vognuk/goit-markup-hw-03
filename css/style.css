@@ -32,17 +32,18 @@
   --view-background-1: yellow;
   --view-background-2: grey;
   --view-background-3: black;
-}
 
-* {
   font-family: Roboto;
   font-style: normal;
 }
+
+/* {
+  font-family: Roboto;
+  font-style: normal;
+} */
 
 /* Header menu items ------------------------------------- */
 .main-menu-link {
-  font-family: Roboto;
-  font-style: normal;
   color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
