@@ -32,7 +32,9 @@
   --view-background-1: yellow;
   --view-background-2: grey;
   --view-background-3: black;
+}
 
+body{
   font-family: Roboto;
   font-style: normal;
 }
