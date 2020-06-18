@@ -274,7 +274,7 @@ header {
 .ways-box {
   display: flex;
   flex-direction: row;
-    margin-right: auto;   
+  margin-right: auto;   
   margin-left: auto;
  }
 
@@ -311,7 +311,7 @@ header {
   margin-bottom: 50px;
 }
 
-.ways-box > h3 {
+.ways-subtitle {
   color: var(--button-text-color);
   font-weight: bold;
   font-size: 14px;
