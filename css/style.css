@@ -212,7 +212,6 @@ header {
   width: 1170px;
 
   padding-top: var(--section-padding);
- 
 }
 
 .principle-child {
@@ -263,19 +262,16 @@ header {
 .ways-box {
   display: flex;
   flex-direction: row;
-
- }
+}
 
 .ways-item {
   margin-right: 30px;
   width: calc((100% - 30px * 2) / 3);
 }
 
-
 .ways-item:nth-child(3n) {
   margin-right: 0px;
 }
-
 
 .ways-image {
   width: 100%;
@@ -328,7 +324,7 @@ header {
 /* web studio team container -------------------------------*/
 .team-container {
   width: 1230px;
-    padding-right: 15px;
+  padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -346,10 +342,9 @@ header {
 }
 
 .team-member-box {
-  width: calc((100% - 30px * 3) / 4); 
+  width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
   background-color: var(--button-text-color);
-  
 }
 
 .team-member-box:nth-child(4n) {
@@ -580,10 +575,8 @@ header {
 
 /* Portfolio ----------------------------------------------*/
 .portfolio {
-
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .portfolio-container {
@@ -594,7 +587,7 @@ header {
 /* --- Portfolio menu */
 
 .portfolio-menu {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 
   color: var(--title-color);
   font-weight: 500;
@@ -646,7 +639,7 @@ header {
 
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap;     
+  flex-wrap: wrap;
 }
 
 .portfolio-list-item {
@@ -707,4 +700,4 @@ header {
 } */
 
 /* 
-- Высоту для контента не использовать, у строчных их нет. 
+- Высоту для контента не использовать, у строчных их нет. */
