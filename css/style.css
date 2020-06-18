@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: Roboto;
+  font-style: normal;
+}
+
 :root {
   --header-blue: #2196f3;
   --subtitle-color: #757575;
@@ -32,11 +37,6 @@
   --view-background-1: yellow;
   --view-background-2: grey;
   --view-background-3: black;
-}
-
-body{
-  font-family: Roboto;
-  font-style: normal;
 }
 
 /* Header menu items ------------------------------------- */
