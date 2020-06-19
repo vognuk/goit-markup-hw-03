@@ -44,6 +44,8 @@
 
 /* Header menu items ------------------------------------- */
 .main-menu-link {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
@@ -88,6 +90,8 @@ header {
 
 /* .header-contacts ---------------------------------------*/
 .header-contacts-item {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--subtitle-color);
   font-weight: 500;
   font-size: 14px;
@@ -113,6 +117,8 @@ header {
 
 /* Contact links */
 .contact-link {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--subtitle-color);
   font-style: normal;
   font-weight: 500;
@@ -129,8 +135,14 @@ header {
   justify-content: center;
   align-items: center;
 
+  margin-right: auto;
+  margin-left: auto;
+
   height: 600px;
+  width: 100%;
   background-image: url('../images/header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero > h1 {
@@ -157,6 +169,8 @@ header {
   background: var(--header-blue);
   margin-top: 30px;
 
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -206,13 +220,16 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
 }
 
 .principles-container {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 
   padding-top: var(--section-padding);
 }
@@ -232,6 +249,8 @@ header {
 }
 
 .principle-header {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   font-weight: bold;
   font-size: 14px;
@@ -287,6 +306,8 @@ header {
 }
 
 .container-header {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -296,6 +317,8 @@ header {
 }
 
 .ways-subtitle {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--button-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -316,6 +339,8 @@ header {
 }
 
 .container-header {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   font-weight: bold;
   font-size: 36px;
@@ -340,8 +365,6 @@ header {
 .team-box {
   display: flex;
   flex-direction: row;
-  /* margin-right: auto;
-  margin-left: auto; */
 }
 
 .team-member-box {
@@ -360,6 +383,8 @@ header {
 }
 
 .member-name {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
@@ -370,6 +395,8 @@ header {
 }
 
 .member-responsibility {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--subtitle-color);
   font-weight: normal;
   font-size: 16px;
@@ -381,11 +408,6 @@ header {
 
 /* clients container ---------------------------------------*/
 .clients-container {
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: center; */
-  /* width: 1600px; */
-
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
@@ -395,14 +417,25 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .clients-item-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+
+  width: calc((100% - 30px * 5) / 6);
   height: 90px;
+  /* padding-top: 22px;
+  padding-right: 41px;
+  padding-bottom: 22px;
+  padding-left: 41px; */
 
   border: 1px solid;
   border-radius: 4px;
@@ -416,12 +449,8 @@ header {
 /* Footer. Logo Web Studio styles -------------------------*/
 
 .footer-container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* width: 1600px; */
-  /* height: 253px; */
-  padding-top: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   background-color: var(--footer-color);
 }
@@ -430,9 +459,15 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 214px;
+  /* margin-left: 214px; */
   align-items: baseline;
-  width: 1170px;
+
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-bottom: 60px; */
 }
 
 /* --- Logo style */
@@ -475,7 +510,8 @@ header {
 /* --- Address */
 .footer-logo {
   width: 100%;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
+  margin-right: 147px;
 }
 
 .contacts-links {
@@ -487,13 +523,16 @@ header {
 }
 
 .footer-address {
+  font-family: Roboto;
   font-style: normal;
 
   width: 231px;
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
 .address-post {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--button-text-color);
   font-weight: normal;
   font-size: 14px;
@@ -505,8 +544,7 @@ header {
 
 .footer-social-list {
   width: 206px;
-  /* height: 80px; */
-  padding-right: 95px;
+  margin-right: 95px;
 }
 
 /* --- Subscribe */
@@ -518,14 +556,14 @@ header {
 .footer-subscribe {
   margin-bottom: 20px;
 
+  font-family: Roboto;
+  font-style: normal;
   color: var(--button-text-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* width: 570px; */
 }
 
 .footer-email {
@@ -540,6 +578,8 @@ header {
   padding-left: 12px;
   background-color: var(--footer-color);
 
+  font-family: Roboto;
+  font-style: normal;
   color: var(--contact-color);
   font-family: Roboto;
   font-style: normal;
@@ -564,17 +604,18 @@ header {
   border: none;
 }
 
-/* --- */
-.copyright {
+/* .copyright {
   margin-right: 0px;
 
+  font-family: Roboto;
+  font-style: normal;
   color: var(--copy-rights-color);
   font-weight: normal;
   font-size: 12px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-}
+} */
 
 /* Portfolio ----------------------------------------------*/
 .portfolio {
@@ -592,6 +633,8 @@ header {
 .portfolio-menu {
   margin-bottom: 50px;
 
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
@@ -613,6 +656,8 @@ header {
   background-color: var(--svg-background-color);
   border-radius: 4px;
 
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
@@ -668,6 +713,8 @@ header {
   margin-bottom: 4px;
   margin-left: 24px;
 
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   font-weight: bold;
   font-size: 18px;
@@ -676,6 +723,8 @@ header {
 }
 
 .card-subtitle {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--subtitle-color);
   font-weight: normal;
   font-size: 16px;
