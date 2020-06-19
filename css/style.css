@@ -33,8 +33,8 @@
   --view-background-2: grey;
   --view-background-3: black;
 
-  font-family: Roboto;
-  font-style: normal;
+  /* font-family: Roboto;
+  font-style: normal; */
 }
 
 /* {
@@ -144,6 +144,8 @@ header {
 }
 
 .hero > h1 {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--button-text-color);
   font-weight: 900;
   font-size: 44px;
